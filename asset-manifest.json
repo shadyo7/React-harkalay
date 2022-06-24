@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-harkalay/static/css/main.f0022099.css",
+    "main.js": "/React-harkalay/static/js/main.d9fa2c51.js",
+    "static/media/aboutus.png": "/React-harkalay/static/media/aboutus.57035c3d2d6ca9996802.png",
+    "static/media/3.png": "/React-harkalay/static/media/3.ae21678a693be3bf2fda.png",
+    "index.html": "/React-harkalay/index.html",
+    "main.f0022099.css.map": "/React-harkalay/static/css/main.f0022099.css.map",
+    "main.d9fa2c51.js.map": "/React-harkalay/static/js/main.d9fa2c51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0022099.css",
+    "static/js/main.d9fa2c51.js"
+  ]
+}
