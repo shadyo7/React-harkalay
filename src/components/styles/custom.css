@@ -1,0 +1,92 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,500;1,200;1,400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,500;1,200;1,400&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  :root {
+    /* Background Color */
+    --primary-color: #5ec9f1;
+    --secondary-color: #214c4e;
+    --bg-dark-yellow: #f2a317;
+    --bg-white: #fff;
+    --gray-color: #1f2024bf;
+  
+    /* text color */
+    --primary-font: "Poppins", sans-serif;
+    --heading-font: "Dancing Script", cursive;
+    --primary-text: #189ce6;
+    --text-yellow: #f2a317;
+    --text-gray: #1f2024bf;
+    --text-white: #fff;
+  }
+  body {
+    font-family: var(--primary-font);
+    background-color: var(--bg-white);
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover,
+  a:focus {
+    color: var(--text-yellow);
+  }
+  /* Custom CSS */
+ 
+  h1 {
+    font-family: var(--heading-font);
+    font-size: 54px;
+    line-height: 70px;
+    font-weight: 800;
+    color: var(--text-yellow);
+    margin-bottom: 20px;
+  }
+  h1 span {
+    color: var(--primary-text);
+  }
+  h2 {
+    font-size: 50px;
+    line-height: 1.5;
+    font-weight: 600;
+    color: var(--text-white);
+    margin-bottom: 15px;
+  }
+  h3 {
+    font-family: var(--heading-font);
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    color: var(--text-yellow);
+  }
+  h6 {
+    display: block;
+    font-size: 15px;
+    color: var(--text-white);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: var(--text-gray);
+  }
+  .subtitle {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    padding: 4px;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+    background: var(--bg-dark-yellow);
+    border-radius: 3px;
+  }
+
+ 

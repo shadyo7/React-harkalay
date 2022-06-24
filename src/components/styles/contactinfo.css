@@ -1,0 +1,22 @@
+@import './custom.css';
+.info__section{
+    padding: 1rem;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 8px;
+    margin-bottom:1rem;
+    opacity: .8;
+    }
+ .icon{
+    color: var(--bg-dark-yellow);
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    font-size:20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+ }
+ 
+ 

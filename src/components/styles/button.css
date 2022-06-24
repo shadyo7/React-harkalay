@@ -1,0 +1,21 @@
+@import './custom.css';
+.main-btn {
+    display: inline-block;
+    border-radius: 50px;
+    transition: all 0.4s ease-in-out;
+    padding: 10px 27px;
+    background-color: var(--primary-color);
+    color: var(--text-white);
+    border: 2px solid var(--bg-white);
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+  }
+  
+  .main-btn:hover {
+    background-color: var(--bg-dark-yellow);
+    border-color: var(--bg-white);
+    color: var(--text-white);
+  }

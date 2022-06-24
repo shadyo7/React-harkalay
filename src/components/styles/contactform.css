@@ -1,0 +1,38 @@
+@import './custom.css';
+
+.contact_form{
+    width:100%;
+    display: flex;
+}
+.form-group{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+label{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-yellow) ;
+    font-family:var(--primary-font);
+}
+input,textarea{
+    width: 100%;
+    font-size: 1rem;
+    padding: 1rem;
+    color:var( --text-gray);
+    background-color:azure;
+    outline: none;
+    border: none;
+    opacity: .8;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+textarea{
+    min-height: 250px;
+    resize: vertical;
+}
+
+@media screen and (max-width: 767px) {
+    label{
+         text-align: center;
+      } 
+} 

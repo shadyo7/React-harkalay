@@ -1,0 +1,47 @@
+@import './custom.css';
+
+.about_wrapper{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;   
+  margin: auto;
+  margin-top: 20px;;
+}
+.aboutSection__left,
+.aboutSection__right{
+      flex:1;      
+}
+
+img{
+   width: 400px;
+   height: 400px; 
+}
+@media only screen and (max-width:950px) {
+    .about_wrapper{
+       margin-top: 10px;
+       flex-direction: column;
+    }
+    .aboutSection__left{
+        flex: 4;
+    }
+    .aboutSection__right{
+        flex: 3;
+    }
+}
+
+@media only screen and (max-width:786px) {
+ .about_wrapper{
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+ }
+ .aboutSection__left,
+ .aboutSection__right{
+         width: 100%;
+ }
+ .aboutSection__right{
+    margin-top: 3rem;
+ }
+}

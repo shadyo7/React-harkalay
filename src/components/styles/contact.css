@@ -1,0 +1,39 @@
+@import './custom.css';
+.contact__section{
+    padding: 10px 0;
+    width: 100%;
+    background-image: url('https://www.thebrokebackpacker.com/wp-content/uploads/2021/09/will-shimshal-mountain-pakistan.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.contact__Wrapper{
+    display: flex;
+    gap: 5rem;
+    margin-top: 2rem;
+    justify-content: center;
+    position: relative;
+}
+.left{
+    margin-top: 5rem;
+}
+.right{
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+    
+    .contact__Wrapper{
+         flex-direction: column;
+         align-content: center;
+         justify-content: center;
+         gap: 2rem;
+
+    }
+    .left {
+        margin: 0 auto;
+    }
+    .right{
+        margin-top: 0rem;
+        margin: 0 auto;
+    }
+}

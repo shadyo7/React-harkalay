@@ -1,0 +1,55 @@
+@import "custom.css";
+/* Navbar */
+.Navbar{
+  background-color: azure;
+}
+ .logo {
+  max-width: 140px;
+  height: auto;
+}
+.Navbar .Nav__container .Toggle {
+  border: 0;
+  color: var(--bg-dark-yellow);
+  line-height: 2;
+}
+.Toggle:focus {
+  box-shadow: none;
+}
+.link-hover {
+  margin: 0 10px;
+}
+.link-hover {
+  position: relative;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--primary-color);
+  display: inline-block;
+}
+.link-hover::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--primary-color);
+  transition: 0.3s;
+  bottom: 0;
+}
+ .link-hover.active::after,
+ .link-hover:hover::after {
+  width: 100%;
+}
+.link-hover.active,
+.link-hover:hover {
+  color:var(--bg-dark-yellow);
+}
+@media screen and (max-width: 767px) {
+    .Navbar .Nav__container {
+     display: flex;
+     flex-flow: row;
+     flex-wrap: inherit;
+     align-items: center;
+     justify-content: space-between;
+    } 
+}
